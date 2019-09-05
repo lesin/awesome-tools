@@ -1,4 +1,4 @@
-The list of tools I use on my Mac OS X.
+The list of tools I use on my Mac OS X + dotfiles.
 
 ## CLI tools
 
@@ -17,13 +17,15 @@ The list of tools I use on my Mac OS X.
 
    press `Ctrl + T` at any point in time to open up an interactive fuzzy search interface, which will recursively search for files inside the current directory.
 
-- `hub` is a command line tool that wraps `git` in order to extend it with extra features and commands that make working with GitHub easier ([github](https://github.com/github/hub)).
+- `hub` is a command line tool that wraps `git` in order to extend it with extra features and commands that make working with GitHub easier. ([github](https://github.com/github/hub)).
  - usage:
   ```shell
   hub clone lesin/repo
   # expands to:
   git clone git://github.com/lesin/repo.git
   ```
+
+- `monolith` is a CLI tool for saving web pages as a single file. ([github](https://github.com/Y2Z/monolith))
 
 - `watch` - used to periodically execute a command.
  - usage: `watch ruby test.rb`
@@ -33,12 +35,28 @@ The list of tools I use on my Mac OS X.
 
 ## non-CLI tools
 
-- `docker`
-  - usage: [cheatsheet](https://github.com/wsargent/docker-cheat-sheet)
+- `Docker`
+  - create, deploy, and run applications by using containers [cheatsheet](https://github.com/wsargent/docker-cheat-sheet)
+
+- `iTerm2`
+  - terminal replacement [link](https://iterm2.com)
+
+- `Monosnap`
+ - create/share screenshots [link](https://monosnap.com)
 
 
+## browser extensions
 
+- `AdBlock` [link](http://getadblock.com/)
+- `ColorZilla` [link](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp)
+- `EditThisCookie` [link](http://www.editthiscookie.com)
+- `JSONView` [link](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc)
+- `OneTab` [link](https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall)
+- `Pesticide` [link](https://chrome.google.com/webstore/detail/pesticide-for-chrome/bblbgcheenepgnnajgfpiicnbbdmmooh)
+- `Wappalyzer` [link](https://www.wappalyzer.com/)
+- `Vimium` [link](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb)
+- `Full Page Screen Capture` [link](https://chrome.google.com/webstore/detail/full-page-screen-capture/fdpohaocaechififmbbbbbknoalclacl)
 
-## List of resources
+## some useful resources
 
-- list of useful lists (different topics like tech, books, etc) [link](https://github.com/sindresorhus/awesome)
+- the list of useful lists (different topics like tech, books, etc) [link](https://github.com/sindresorhus/awesome)
