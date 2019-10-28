@@ -7,10 +7,16 @@ The list of tools I use on my Mac OS X + dotfiles.
 - `birthday` is a tool to store birthdays.([github](https://github.com/IonicaBizau/birthday))
  - usage:
  ```shell
-   birthday -n 'Name Surname' -d '14/09/1995'
-   birthday -n 'Name Surname' -d '14/09'
-   birthday # displays all birthdays
+   $ birthday -n 'Name Surname' -d '14/09/1995'
+   $ birthday -n 'Name Surname' -d '14/09'
+   $ birthday # displays all birthdays
  ```
+
+- `shellcheck` -  tool that gives warnings and suggestions for bash/sh shell scripts ([github](https://github.com/koalaman/shellcheck))
+  - usage:
+  ```shell
+  $ shellcheck yourscript
+  ```
 
 - `fzf` - command-line fuzzy finder. ([github](https://github.com/junegunn/fzf))
  - usage:
@@ -20,12 +26,15 @@ The list of tools I use on my Mac OS X + dotfiles.
 - `hub` is a command line tool that wraps `git` in order to extend it with extra features and commands that make working with GitHub easier. ([github](https://github.com/github/hub)).
  - usage:
   ```shell
-  hub clone lesin/repo
+  $ hub clone lesin/repo
   # expands to:
-  git clone git://github.com/lesin/repo.git
+  $ git clone git://github.com/lesin/repo.git
   ```
+- `ngrok` exposes local servers behind NATs and firewalls to the public internet over secure tunnels. ([link](https://ngrok.com/download))
 
 - `monolith` is a CLI tool for saving web pages as a single file. ([github](https://github.com/Y2Z/monolith))
+
+- `tmux` is a terminal multiplexer: it enables a number of terminals to be created, accessed, and controlled from a single screen. tmux may be detached from a screen and continue running in the background, then later reattached. ([github](https://github.com/tmux/tmux))
 
 - `watch` - used to periodically execute a command.
  - usage: `watch ruby test.rb`
