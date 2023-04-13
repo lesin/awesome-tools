@@ -12,6 +12,12 @@ The list of tools I use on my Mac OS X + dotfiles.
    $ birthday # displays all birthdays
  ```
 
+- `dive` - for exploring a docker image, layer contents, and discovering ways to shrink the size of your Docker/OCI image. ([github](https://github.com/wagoodman/dive))
+  - usage:
+  ```shell
+  $ dive <your-image-tag>
+  ```
+
 - `shellcheck` -  tool that gives warnings and suggestions for bash/sh shell scripts ([github](https://github.com/koalaman/shellcheck))
   - usage:
   ```shell
