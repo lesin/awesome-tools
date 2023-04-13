@@ -1,5 +1,11 @@
 The list of tools I use on my Mac OS X + dotfiles.
 
+## Run packages and apps install with Homebrew
+
+On a new mac you can install pretty much everything you need with a homebrew. 
+Here is the whole script I use [install_with_brew.sh](install_with_brew.sh)
+
+
 ## CLI tools
 
 - `bat` allows to view files with syntax highlighting. Great alternative to `cat`. ([github](https://github.com/sharkdp/bat))
