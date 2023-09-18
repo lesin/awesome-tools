@@ -26,6 +26,7 @@ PACKAGES=(
     docker
     docker-compose
     dive
+    stats
 )
 
 echo "Installing packages..."
